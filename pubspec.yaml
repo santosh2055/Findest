@@ -51,6 +51,8 @@ flutter:
     - googleicon.png
     - logosfacebook.png
     - checkbox1.png
+    - circleavatar.jpg
+    - Search.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

@@ -19,22 +19,19 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
-
-          // primarySwatch: Colors.blue,
-          ),
+      theme: ThemeData(),
       debugShowCheckedModeBanner: true,
       initialRoute: WelcomeScreen.id,
       routes: {
         WelcomeScreen.id: (context) => WelcomeScreen(),
         RegistrationScreen.id: (context) => RegistrationScreen(),
-        LoginScreen.id: (context) => LoginScreen(),
+        LoginScreen.id:(contex)=>LoginScreen(),
         Profile1.id: (context) => Profile1(),
         EducationDetails.id: (context) => EducationDetails(),
         SkillScreen.id: (context) => SkillScreen(),
         WorkPreferenciesScreen.id: (context) => WorkPreferenciesScreen(),
         ProfilewithIcon.id: (context) => ProfilewithIcon(),
-        Drawer_screen.id:(context)=>Drawer_screen()
+        Drawerscreen.id: (context) => Drawerscreen()
       },
     );
   }

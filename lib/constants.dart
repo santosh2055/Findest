@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 const kTextFieldDecoration = InputDecoration(
   hintText: 'search',
+  
+  
   contentPadding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
 );
 
