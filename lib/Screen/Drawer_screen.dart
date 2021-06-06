@@ -1,13 +1,13 @@
 import 'package:findest/constants.dart';
 import 'package:flutter/material.dart';
 
-class Drawer_screen extends StatefulWidget {
+class Drawerscreen extends StatefulWidget {
   static const id = 'Drawer_screen';
   @override
-  _Drawer_screenState createState() => _Drawer_screenState();
+  _DrawerscreenState createState() => _DrawerscreenState();
 }
 
-class _Drawer_screenState extends State<Drawer_screen> {
+class _DrawerscreenState extends State<Drawerscreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

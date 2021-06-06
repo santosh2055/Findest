@@ -1,5 +1,6 @@
 import 'package:findest/Screen/skill_screen.dart';
 import 'package:findest/components/button.dart';
+import 'package:findest/components/educationContainer.dart';
 import 'package:findest/constants.dart';
 import 'package:flutter/material.dart';
 
@@ -35,79 +36,45 @@ class _EducationDetailsState extends State<EducationDetails> {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Container(
-                child: Center(child: Text('PHD Decorate')),
-                height: 60,
-                width: 150,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(20),
-                    border: Border.all(color: Color(0xff395185))),
+              EducationContainer(
+                title: 'PHD Decorate',
+                onPressed: () {},
               ),
-              SizedBox(
-                width: 20,
+              SizedBox(width: 20),
+              EducationContainer(
+                onPressed: () {},
+                title: 'Post Graduate',
               ),
-              Container(
-                child: Center(child: Text('Post Graduate')),
-                height: 60,
-                width: 150,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(20),
-                    border: Border.all(color: Color(0xff395185))),
-              )
             ],
           ),
-          SizedBox(
-            height: 20,
-          ),
+          SizedBox(height: 20),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Container(
-                child: Center(child: Text('Graduate/DIP')),
-                height: 60,
-                width: 150,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(20),
-                    border: Border.all(color: Color(0xff395185))),
+              EducationContainer(
+                onPressed: () {},
+                title: 'Graduate/DIP',
               ),
-              SizedBox(
-                width: 20,
+              SizedBox(width: 20),
+              EducationContainer(
+                onPressed: () {},
+                title: 'Class x',
               ),
-              Container(
-                child: Center(child: Text('Class XI')),
-                height: 60,
-                width: 150,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(20),
-                    border: Border.all(color: Color(0xff395185))),
-              )
             ],
           ),
-          SizedBox(
-            height: 20,
-          ),
+          SizedBox(height: 20),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Container(
-                child: Center(child: Text('Below class X')),
-                height: 60,
-                width: 150,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(20),
-                    border: Border.all(color: Color(0xff395185))),
+              EducationContainer(
+                title: 'Below Class X',
+                onPressed: () {},
               ),
-              SizedBox(
-                width: 20,
+              SizedBox(width: 20),
+              EducationContainer(
+                title: 'Class X',
+                onPressed: () {},
               ),
-              Container(
-                child: Center(child: Text('Class X')),
-                height: 60,
-                width: 150,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(20),
-                    border: Border.all(color: Color(0xff395185))),
-              )
             ],
           ),
           SizedBox(
